@@ -59,4 +59,3 @@ public class Assignment {
  c ^= a >>> c = c ^ a = 0 ^ 10 = 10 (operasi ini disebut dengan XOR pada angka biner)
  c |= a >>> c = c | a = 10 | 10 = 10 (operasi ini disebut dengan OR pada angka biner)
 */
- 
