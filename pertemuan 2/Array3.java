@@ -36,7 +36,7 @@ for (int[] arrxs: arrx){
 /*penjelasan tentang menjumlahkan elemen array
 int [][] arrx= new int [3][3];
  >>>> int [3][3] arrx= { [0][1][2]
- 						[0][1][2]
+ 			[0][1][2]
  						}
 
 System.out.println("Nilai arrx[0][0] : " + arrx[0][0]); >>>>untuk output ini nilai elemen array indeks [0][0] adalah 1 
