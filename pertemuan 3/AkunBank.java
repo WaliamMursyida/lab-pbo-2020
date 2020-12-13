@@ -2,6 +2,7 @@ public class AkunBank {
 	// Attribute
 	private int saldo;
 	private int pin;
+
 	// Method
 	// Constructor
 	public AkunBank(int saldo) {
@@ -17,13 +18,7 @@ public class AkunBank {
 	public void setSaldo(int saldo) {
 		this.saldo = saldo;
 	}
-	public getPin(){
-		return this.pin;
-	}
-	public void setPin(int pin){
-		this.pin = pin;
-	}
-	
+
 	public void setor(int jumlahSetoran) {
 		setSaldo(getSaldo() + jumlahSetoran);
 		System.out.println("Berhasil Melakukan Setoran Sebanyak : "+jumlahSetoran);

@@ -2,18 +2,15 @@ import java.util.Scanner;
 
 public class Bank {
 	public static void main(String[] args) {
-		AkunBank akun = new AkunBank(50);
+		AkunBank akun = new AkunBank();
 		Scanner in = new Scanner(System.in);
-
-			System.out.println("Masukkan Pin: ");
-			int pin = in.nextInt();
 
 		while(true) {
 			System.out.println("\n==================");
 			System.out.println("===BANK PBO B===");
 			System.out.println("==================");
 
-			System.out.println("Pilhan : \n1. Setoran\n2. Penarikan");
+			System.out.println("Pilhan :\n1. Setoran\n2. Penarikan");
 
 			System.out.print("Pilihan anda : ");
 			int pilihan = in.nextInt();
@@ -39,4 +36,7 @@ public class Bank {
 						break;
 					}
 		}
+
+
+	}
 }
