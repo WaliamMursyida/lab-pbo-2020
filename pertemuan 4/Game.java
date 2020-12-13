@@ -5,14 +5,13 @@ public class Game{
 
 		hero1.serang(hero2);
 
-		hero2.serang(hero1);
-		hero2.serang(hero1);
-		hero2.serang(hero1);
+		hero2.serang(hero1); // 70
+		hero2.serang(hero1); // 40
+		hero2.serang(hero1); // 10
 
-		hero1.healing();
-		hero1.healing();
+		hero1.healing(); // 20
+		hero1.healing(); // 30
 
-		hero2.serang(hero1);
-
+		hero2.serang(hero1); // 0
 	}
 }
