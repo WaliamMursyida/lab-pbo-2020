@@ -14,14 +14,26 @@ public class LoopingDoWhile{
 	}
 }
 
-/*
-	Penjelasan :
-		Dari program diatas kita memiliki variabel i
-		dan j. i akan menghasilkan baris yaitu i<10 (0-9)
-		setiap baris akan menghasilkan 1 "*". Sedangkan j
-		akan menghasilkan "*" kearah kanan dengan menambah
-		1 "*" disetiap barisnya.
+/*penjelasan code
+pada program diatas dimana program disuruh lakukan perulangan
+sebelumnya da dklarasi variabel i=0
+maka perintah do:
+int j=0; .>>> deklarasi variabel j
+while (j<i+1){  >>>>> perulangan j < i maka akan ditambah kesamping sebanyak 1
+System.out.print('*'); >>> dan akan di print simbol *
+j++; >>> nilai j akan terus diincriment sampai syarat j++
 
+setelah looping j dilakukan maka i akan diincrement kan selama <10 (0-9)
 
-
+dan ahsil outputnya tetap sama seperti looping for, while
+*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+**********
 */

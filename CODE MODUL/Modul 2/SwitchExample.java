@@ -1,33 +1,22 @@
 public class SwitchExample{
-	public static void main(String[] args){
-		int number = 20;
-		switch (number){
-			case 10:
-			System.out.println("10");
-			break;
-			
-			case 20:
-			System.out.println("20");
-			break;
-
-			case 30:
-			System.out.println("30");
-			break;
-
-			default :
-			System.out.println("Not in 10, 20 or 30");
+	public static void main(String[]args){
+		int number=20;
+		switch(number){
+			case 10: System.out.println("10");break;
+			case 20: System.out.println("20");break;
+			case 30: System.out.println("30");break;
+			default: System.out.println("not in 10, 20 or 30");
 		}
 	}
 }
 
-/*
-	Penjelasan :
-		Program diatas kita memiliki 1 variabel bertipe int
-		disini kita menggunakan loop switch case dimana hanya
-		akan ada satu kondisi saja yang akan ditampilkan.
+/*switch case juga sama seperti if dan if else if namun beda nya jika switch case memiliki case nya sendiri
 
-		Pada program kita ini variabel number memiliki nilai = 20
-		maka seleksi switch case dilakukan maka hanya ada satu pernyataan
-		saja yang benar dan case 20 dan akan menghasilkan output ("20")
+int number=20; >>>>> di program telah dideklarasi variabel number adalah 10
+case 10: System.out.println("10");break;
+case 20: System.out.println("20");break;
+case 30: System.out.println("30");break;
 
+dan diatas terdapat 3 case nya. dimana jika number berada disalah satu case tersebut maka akan di print nilainya.
+karena disini terdapat number= 20 , maka number berasda di case 20. dan program akan mengeprint 20
 */

@@ -1,30 +1,27 @@
-public class SmalLest{
-	public static void main(String[] args){
-		int a, b;
+public class Smallest{
+	public static void main (String []args){
+		int a,b;
 
 		Mulai:
 		for(a=0; a<2; a++){
-			for(b=0; b<3; b++){
-				if(b==2)
-					break Mulai;
-				System.out.println("a=" + a + " ; b=" + b);
+		for(b=0; b<3; b++){
+		if(b==2)
+		break Mulai;
+		System.out.println("a=" + a + " ; b=" + b);
 			}
 		}
 	}
 }
 
-
-/*
-	Penjelasan :
-		Dari kode diatas kita memiliki 2 variabel, bertipe int
-		Disini kita mencoba untuk menggunakan label break dimana
-		label ini akan menghentikan operasi sesuai dengan looping.
-		Pada program yang telah kita buat diatas break akan menghentikan 
-		operasi pada sistem Mulai artinya akan keluar dari looping 1
-		jadi outputnya ialah :
-		 a = 0;	b = 0
-		 a = 0; b = 1
-
-
+/*penjelasan code program smallest
+	Program diatas merupakan contoh dari Break yang diberikan label yaitu cara untuk menghentikan operasi sesuai dengan looping yang kita inginkan
+	
+		for(a=0; a<2; a++){ >>>>>looping yang dilakukan
+		for(b=0; b<3; b++){ >>>>>> looping yang dilakukan
+		if(b==2)
+		break Mulai; >>>> bermakna keluar dari loop for ke-1.
+	dan hasil output 
+	a=0 ; b=0 >>>>Pada Program diatas break akan menghentikan operasi pada statement Mulai
+	a=0 ; b=1
 
 */

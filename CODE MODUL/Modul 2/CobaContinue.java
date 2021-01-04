@@ -1,7 +1,7 @@
 public class CobaContinue{
-	public static void main(String arg[]){
-		for (int i=0; i<10; i++){    //loop for ke-1
-			for (int j=0; j<i+1; j++){ //loop for ke-2
+	public static void main(String [] args){
+		for (int i=0; i<10; i++){
+			for (int j=0; j<i+1; j++){
 			    if(j==5)
                 continue;
                 
@@ -11,12 +11,22 @@ public class CobaContinue{
 		}
     }
 }
+/*penjelasan code 
+int i=0, i<10 akan melakukan perulangan sebanyak 10 kali (0-9) kebawah pada setiap barisnya akan terdapat 1 "*", dan i++ akan incremet selama masih memenuhi syrat
 
-/*
-	Penjelasan :
-		Kondisi continue akan melanjutkan ketahap selanjutnya
-		pada perulangan. int i diberi kondisi i < 10 (0-9)
-		i akan menghasilkan 1 "*" disetiap barisnya. Sedangkan j
-		akan menambah 1 "*" disetiap barisnya dan jika j==5
-		maka loopingnya akan dilanjutkan ditahap berikutnya.
+for (int i=0; i<10; i++) >>>kemudian int j akan melakukan perulangan kesamping sebanyak j<i+1 dimana "*" pada setiap baris akan bertambah 1 
+if(j==5) >>>>>terdapat terdapat seleksi If dan Continue yaitu apabila j telah sama dengan 5 maka perulangan j akan dilanjutkan atau continue ke tahapan selanjutnya pada perulangan.
+
+berbeda dengan break tadi. jika break akan berhenti maka continue akan melanjutkan. sehingga terdapay output seperti:
+		*
+		**
+		***
+		****
+		*****
+		*****
+		******
+		*******
+		********
+		*********
+
 */
