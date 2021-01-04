@@ -1,0 +1,22 @@
+SOAL:
+Apakah perbedaan class String, StringBuffer dan StringBuilder?
+Apakah yang dimaksud dengan sifat mutable dan immutable? Beri contoh!
+Jelaskan operasi utama append dan insert yang dimiliki oleh StringBuffer!
+
+JAWABAN:
+1. perbedaan antara Class String,StringBuffer dan 
+- Class String berisi string yang tetap (immutable string). Artinya sekali intance String dibuat maka isinya tidak bisa diubah. 
+- Class StringBuffer bersifat mutable, atau dapat diubah atau dimodifikasi dengan menggunakan beberapa method yang dimilikinya. 
+- StringBuilder adalah string yang bersifat mutable. Operasi yang dimiliki class StringBuilder mirip dengan class StringBuffer. Perbedaannya adalah StringBuilder tidak mendukung sinkronisasi.
+
+2. - Mutable artinya dapat diubah atau dimodifikasi dengan menggunakan beberapa method yang dimilikinya
+contohnya: 
+StringBuffer sb1 = new StringBuffer(“start”);
+maka isi sb1 adalah “startle”<>sb1.append(“le”); 
+
+- immutable artinya sekali intance String dibuat maka isinya tidak bisa diubah.
+contohnya:
+String str = "abc";
+
+3. Method append selalu menambahkan teks diakhir string.
+sedang method insert menembahkan teks di posisi tertentu. 
